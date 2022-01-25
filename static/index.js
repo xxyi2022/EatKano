@@ -348,10 +348,10 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
+        if (score <= 49) return '看来你对斯兰婷还不够敏感';
+        if (score <= 99) return '斯兰婷本尊';
+        if (score <= 149) return '神级斯兰婷';
+        if (score <= 199) return '神';
         return '人？';
     }
 
